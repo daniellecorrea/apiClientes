@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+/Users/danicorrea/Downloads/TurmaIntegralSaturday/T_Q_JavaFullstack/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-3468314333.index
-898518054.index
