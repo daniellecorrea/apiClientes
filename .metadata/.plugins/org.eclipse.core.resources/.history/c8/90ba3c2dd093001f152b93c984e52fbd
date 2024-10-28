@@ -1,0 +1,30 @@
+package br.com.cotiinformatica;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.javafaker.Faker;
+
+import br.com.cotiinformatica.dtos.CriarUsuarioRequestDto;
+
+@SpringBootTest
+class ApiUsuariosApplicationTests {
+	
+	@Autowired
+	MockMvc mockMvc;
+	
+	@Autowired
+	ObjectMapper objectMapper;
+	
+
+	@Test
+	void contextLoads() {
+		
+		var dto = new CriarUsuarioRequestDto();
+		var faker = new Faker();
+	}
+
+}

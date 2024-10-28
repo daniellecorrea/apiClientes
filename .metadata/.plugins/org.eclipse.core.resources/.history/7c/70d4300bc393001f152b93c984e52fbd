@@ -1,0 +1,39 @@
+package br.com.cotiinformatica.services;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import br.com.cotiinformatica.dtos.AutenticarUsuarioRequestDto;
+import br.com.cotiinformatica.dtos.CriarUsuarioRequestDto;
+import br.com.cotiinformatica.repositories.PerfilRepository;
+import br.com.cotiinformatica.repositories.PermissaoRepository;
+import br.com.cotiinformatica.repositories.UsuarioRepository;
+
+
+@Service
+public class UsuarioService {
+	@Autowired //injeção de dependência
+	UsuarioRepository usuarioRepository;
+	
+	@Autowired //injeção de dependência
+	PerfilRepository perfilRepository;
+	
+	@Autowired //injeção de dependência
+	PermissaoRepository permissaoRepository;
+	
+	/*
+	 * Método para criar um usuário no banco de dados
+	 */
+	public String criarUsuario(CriarUsuarioRequestDto dto) {
+		//TODO
+		return null;
+	}
+	
+	/*
+	 * Método para autenticar um usuário no banco de dados
+	 */
+	public String autenticarUsuario(AutenticarUsuarioRequestDto dto) {
+		//TODO
+		return null;
+	}
+}
+
+

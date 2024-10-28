@@ -1,0 +1,23 @@
+package br.com.cotiinformatica.services;
+import org.springframework.stereotype.Service;
+import br.com.cotiinformatica.dtos.AutenticarUsuarioRequestDto;
+import br.com.cotiinformatica.dtos.CriarUsuarioRequestDto;
+
+@Service
+public class UsuarioService {
+	/*
+	 * Método para criar um usuário no banco de dados
+	 */
+	public String criarUsuario(CriarUsuarioRequestDto dto) {
+		//TODO
+		return null;
+	}
+	
+	/*
+	 * Método para autenticar um usuário no banco de dados
+	 */
+	public String autenticarUsuario(AutenticarUsuarioRequestDto dto) {
+		//TODO
+		return null;
+	}
+}

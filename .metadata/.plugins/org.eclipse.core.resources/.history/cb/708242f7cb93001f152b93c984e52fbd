@@ -1,0 +1,17 @@
+package br.com.cotiinformatica;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ApiUsuariosApplicationTests {
+	
+	@Autowired
+	MockMcv mockMvc;
+
+	@Test
+	void contextLoads() {
+	}
+
+}
